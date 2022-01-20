@@ -1,0 +1,84 @@
+{% include "header.html" %}
+
+<!---
+<div id="top-content" class="container-fluid inner-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="page-title">Contact us</div>
+                <div class="page-subtitle">Need something else? Send a direct message to our support team or contact us here</div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<div id="details" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="col-title">{{language.CONTACT.Title}}</div>
+                <form id="contactform" method="post" autocomplete="off">
+                    <div class="form-items-holder">
+                        <div class="form-text">
+                            <input type="text" name="name" placeholder="{{language.CONTACT.Name}}" required>
+                        </div>
+                        <div class="form-text">
+                            <input type="email" name="email" placeholder="{{language.CONTACT.Email}}" required>
+                        </div>
+                        <div class="form-text">
+                            <input type="text" name="website" placeholder="{{language.CONTACT.Website}}" required>
+                        </div>
+                        <div class="form-text">
+                            <textarea name="message" placeholder="{{language.CONTACT.Info}}" required></textarea>
+                        </div>
+                        <div class="form-button"><input id="submit" type="submit" value="{{language.CONTACT.Send}}"></div>
+                    </div>
+                </form>
+            </div>
+<!---
+            <div class="col-md-5 contacts">
+                <div class="col-title">Office Locations</div>
+                
+                <h4>Sydney</h4>
+                <p>Sydney, Australia<br>
+                Road 398, Center, Office 38, floor 3<br>
+                Contact number: 0901</p>
+
+                <h4>United States</h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos  ducimus 
+                qui blanditiis. praesentium voluptatum deleniti llitia animi, 
+                At vero eos et accusamus et Main iusto odio dignissimos.</p>
+
+                <h4>Bahrain</h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos  ducimus 
+                qui blanditiis. praesentium voluptatum deleniti llitia animi, 
+                inquiries@streamango</p>
+                
+                <a class="lg-link" href="support">Technical Support <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!--AD-
+<div id="more-info" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">Already have an account?</div>
+                <div class="row-subtitle">Phasellus accumsan nisi eu arcu condimentum sollicitudin. Nulla auctor quis est at suscipit. <br>
+Maecenas ac urna eget magna vulputate interdum.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="get-started-button">Sign in to your account</a>
+            </div>
+        </div>
+    </div>
+</div> 
+-->
+
+
+{% include "footer.html" %}

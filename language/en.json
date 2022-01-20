@@ -1,0 +1,48 @@
+{
+    "info": "English",
+    "vison": "1.0.0",
+
+    "INDEX": 
+        {
+            "Logo":"JOME IDC",
+            "intrduce":"Better Web Hosting, For You.",
+            "enter":"Enter your new domain name.",
+            "rowtitle":"World Class Hosting",
+            "rowsubtitle":"Sed lectus mauris, interdum at luctus vel, lobortis semper nisi. \n Integer vel porttitor sem. Aliquam erat volutpat.",
+            "featuretitle0":"Knowledge base",
+            "featuredetails0":"Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.",
+            "featuretitle1":"Insured Safety",
+            "featuredetails1":"Aliquam consectetur aliquet libero, ut viverra velit bibendum a. Nullam et sapien ac eros feugiat sollicitudin.",
+            "featuretitle2":"Easy steps",
+            "featuredetails2":"Sed faucibus lectus quis tellus fermentum gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "rowsubtitle1":"Vestibulum aliquam erat eu dictum porttitor.<br /> Aliquam feugiat risus lorem, non tempor purus egestas at.",
+            
+            
+            "about": "About",
+            "hosting": "Virtual Host",
+            "whosting":"Free Hosting",
+            "chosting":"Cloud Server",
+            "dhosting":"high quality",
+            "support":"Help&Support",
+            "Contact":"contact us",
+            "Login":"Login",
+            "Chat":"Chat",
+            "Console":"Console"
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+        }
+    
+}

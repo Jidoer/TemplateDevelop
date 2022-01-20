@@ -1,0 +1,306 @@
+{% include "header.html" %}
+
+<div id="top-content" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="big-title">{{language.INDEX.Logo}}</div>
+                <div class="sub-title">{{language.INDEX.intrduce}}</div>
+                <div class="domain-search-holder">
+                    <form id="domain-search">
+                        <input id="domain-text" type="text" name="domain" placeholder="{{language.INDEX.enter}}" />
+                        <input id="search-btn" type="submit" name="submit" value="Get started" />
+                    </form>
+                </div>
+                <div class="animation">
+                    <img src="images/laptop.png" alt="laptop" />
+                    <ul class="icons-list">
+                        <li><a href="#"><i class="fa fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fa fa-commenting"></i></a></li>
+                        <li><a href="#"><i class="fa fa-wifi"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
+                        <li><a href="#"><i class="fa fa-bullhorn"></i></a></li>
+                    </ul>
+                    <canvas id="hand-animation"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="features" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">{{language.INDEX.rowtitle}}</div>
+                <div class="row-subtitle">{{language.INDEX.rowsubtitle}} </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="box-bg"></div>
+                    <div class="feature-icon"><i class="hsto hsto-cloud-computing"></i></div>
+                    <div class="feature-title">{{language.INDEX.featuretitle}}</div>
+                    <div class="feature-details">{{language.INDEX.featuredetails0}}</div>
+                    <div class="feature-button">
+                        <a class="all-feature-button" href="#info">All Features</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box active">
+                    <div class="box-bg"></div>
+                    <div class="feature-icon"><i class="hsto hsto-mouse"></i></div>
+                    <div class="feature-title">{{language.INDEX.featuretitle1}}</div>
+                    <div class="feature-details">{{language.INDEX.featuredetails1}}</div>
+                    <div class="feature-button">
+                        <a class="all-feature-button" href="#info">All Features</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="box-bg"></div>
+                    <div class="feature-icon"><i class="hsto hsto-worldwide"></i></div>
+                    <div class="feature-title">{{language.INDEX.featuretitle2}}</div>
+                    <div class="feature-details">{{language.INDEX.featuredetails2}}</div>
+                    <div class="feature-button">
+                        <a class="all-feature-button" href="#info">All Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="pricing" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">Our Services</div>
+                <div class="row-subtitle">{{language.INDEX.rowsubtitle1}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="pricing-box green-after best-seller">
+                    <div class="pricing-icon green-color"><i class="hsto hsto-technology"></i></div>
+                    <div class="pricing-title">Web Hosting</div>
+                    <div class="pricing-details">
+                        <ul>
+                            <li>我们为您提供安全、稳定、可信赖的基础计算产品
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-amount">
+                        <div>Starting at</div>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">3.8</span>
+                            <span class="duration"> / Month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-button"><a href="whosting" class="green-button">Start today</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="pricing-box pink-after">
+                    <div class="pricing-icon pink-color"><i class="hsto hsto-cloud"></i></div>
+                    <div class="pricing-title">Cloud Hosting</div>
+                    <div class="pricing-details">
+                        <ul>
+                            <li>我们为您提供安全、稳定、可信赖的基础计算产品</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-amount">
+                        <div>Starting at</div>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">58.9</span>
+                            <span class="duration"> / Month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-button"><a href="chosting" class="pink-button">I want this</a></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="pricing-box purple-after">
+                    <div class="pricing-icon purple-color"><i class="hsto hsto-computer"></i></div>
+                    <div class="pricing-title">Dedicated hosting</div>
+                    <div class="pricing-details">
+                        <ul>
+                            <li>我们为您提供安全、稳定、可信赖的基础计算产品</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-amount">
+                        <div>Starting at</div>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">288.9</span>
+                            <span class="duration"> / Month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-button"><a href="dhosting" class="purple-button">Let's go!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="info" class="container-fluid">
+    <div class="container">
+        <div class="row rtl-cols">
+            <div class="col-sm-4 col-md-4 info-img-holder">
+                <img class="info-img" src="images/info1.png" alt="info" />
+            </div>
+            <div class="col-sm-8 col-md-8 info-text-holder">
+                <h3>为什么选择JOMEIDC ?</h3>
+                <p>我们为您提供安全、稳定、可信赖的基础计算产品.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 info-img-holder">
+                <img class="info-img" src="images/info2.png" alt="info" />
+            </div>
+            <div class="col-sm-8 col-md-8 info-text-holder text-right">
+                <h3>我们的产品优势</h3>
+                <p>稳定、高效、高性价比的基础云计算产品.</p>
+            </div>
+        </div>
+        <div class="row rtl-cols">
+            <div class="col-sm-4 col-md-4 info-img-holder">
+                <img class="info-img" src="images/info3.png" alt="info" />
+            </div>
+            <div class="col-sm-8 col-md-8 info-text-holder">
+                <h3>Why Choose Hostio?</h3>
+                <p>云虚拟主机（又称为PHP空间、网站空间、域名空间等），适配PHP5.2/5.3/5.4/5.6/7.0/7.1/7.2/7.3全系版本的服务商，采用新一代云架构——数据、存储、计算、网络均采用分布式集群架构设计；基于LAMP方案深度优化，容器化多层隔离，进一步降低单点故障率，在线率行业领先；配备管理面板，功能强大、简单易用，提供一键防CC攻击，DDos防护峰值可达5~10Gbps，是一款高性价比的虚拟主机产品，低至29元/年，已为十一万中小型网站提供了稳定服务。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="more-info" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">准备好拥有自己的网站了吗?</div>
+                <div class="row-subtitle">高速免备案虚拟主机，高配8核心32G内存2T硬盘服务器，服务器三ip,三出口设计，阿里云香港高速出口，香港沙田高速出口，OVH新加坡高防出口，一台主机同时拥有多个出口ip,自动选择最优出口线路，easypanel中文控制面板，超低延迟，香港高速数据中心，支持sg11,支持fileinfo，支持ionCube，支持swoole,支持SSL，其他php扩展可以联系我们添加。支持企业站，博客、论坛、影视站、淘宝客，个人主页,骆驼iptv后端等。支持月付和年付。各个型号都免费送有二级域名</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="whosting" class="get-started-button">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---
+<div id="more-features" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">Hostio Guarantees</div>
+                <div class="row-subtitle">Etiam condimentum metus rhoncus purus pharetra tempor. <br />Sed faucibus lectus quis tellus fermentum gravida.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud1.png" alt="cloud" /></div>
+                        <i class="hsto hsto-medal"></i>
+                    </div>
+                    <div class="mfeature-title">World Class Hosting</div>
+                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud2.png" alt="cloud" /></div>
+                        <i class="hsto hsto-hours-support"></i>
+                    </div>
+                    <div class="mfeature-title">Great Support</div>
+                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mfeature-box">
+                    <div class="mfeature-icon">
+                        <div class="icon-bg"><img src="images/cloud3.png" alt="cloud" /></div>
+                        <i class="hsto hsto-money"></i>
+                    </div>
+                    <div class="mfeature-title">38 Day Guarantee</div>
+                    <div class="mfeature-details">Mauris at libero sed justo pretium maximus ac non ex. Donec sit amet ultrices dolo.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="testimonials" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row-title">Don’t take our word for it</div>
+                <div class="row-subtitle">We’re loved by great customers all around the world!<br>
+Here’re some of their opinions about us</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-box">
+                    <div class="testimonial-image"><img src="images/t1.jpg" alt="person" /></div>
+                    <div class="testimonial-title">Great Services!</div>
+                    <div class="testimonial-details">Lorem Ipsum which looks reasonable generated as default model as and search many web sites pass websites is therefore always.</div>
+                    <div class="testimonial-info"><span class="name">John Doe</span> - Manager @ Brandio</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-box">
+                    <div class="testimonial-image"><img src="images/t2.jpg" alt="person" /></div>
+                    <div class="testimonial-title">Great Services!</div>
+                    <div class="testimonial-details">Lorem Ipsum which looks reasonable generated as default model as and search many web sites pass websites is therefore always.</div>
+                    <div class="testimonial-info"><span class="name">John Doe</span> - Manager @ Brandio</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-box">
+                    <div class="testimonial-image"><img src="images/t3.jpg" alt="person" /></div>
+                    <div class="testimonial-title">Great Services!</div>
+                    <div class="testimonial-details">Lorem Ipsum which looks reasonable generated as default model as and search many web sites pass websites is therefore always.</div>
+                    <div class="testimonial-info"><span class="name">John Doe</span> - Manager @ Brandio</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-box">
+                    <div class="testimonial-image"><img src="images/t4.jpg" alt="person" /></div>
+                    <div class="testimonial-title">Great Services!</div>
+                    <div class="testimonial-details">Lorem Ipsum which looks reasonable generated as default model as and search many web sites pass websites is therefore always.</div>
+                    <div class="testimonial-info"><span class="name">John Doe</span> - Manager @ Brandio</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="testimonial-box">
+                    <div class="testimonial-image"><img src="images/t5.jpg" alt="person" /></div>
+                    <div class="testimonial-title">Great Services!</div>
+                    <div class="testimonial-details">Lorem Ipsum which looks reasonable generated as default model as and search many web sites pass websites is therefore always.</div>
+                    <div class="testimonial-info"><span class="name">John Doe</span> - Manager @ Brandio</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+-->
+<div id="get-started" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text">{{language.INDEX.getstarted}}</div>
+                <a href="contact" class="gstart">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% include "footer.html" %}

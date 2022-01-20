@@ -1,0 +1,31 @@
+{% if alert %}
+{% if alert.error %}
+<!--error-->
+<div class="alert alert-error">
+  <button type="button" data-dismiss="alert" class="close">&times;</button><strong>{{language.System.error}}: </strong>{{alert.error}}
+</div>
+{%else%}
+{% if alert.success %}
+<!--success-->
+<div class="alert alert-success">
+  <button type="button" data-dismiss="alert" class="close">&times;</button><strong>{{language.System.success}}: </strong>{{alert.success}}
+</div>
+{%else%}
+{% if alert.warning %}
+<!--warning-->
+<div class="alert alert-error">
+  <button type="button" data-dismiss="alert" class="close">&times;</button><strong>{{language.System.warning}}: </strong>{{alert.warning}}
+</div>
+{%else%}
+{% if alert.info %}
+<!--information-->
+<div class="alert alert-info">
+  <button type="button" data-dismiss="alert" class="close">&times;</button><strong>{{language.System.warning}}: </strong>{{alert.warning}}
+</div>
+{%else%}
+<!--no information-->
+{%endif%}
+{%endif%}
+{%endif%}
+{%endif%}
+{%endif%}

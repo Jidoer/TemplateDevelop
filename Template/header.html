@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+
+<title>Jome IDC</title>
+<meta name="keywords" content="{{language.HEADER.keywords}}">
+<meta name="description" content="{{language.HEADER.description}}">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<!--包含alert-->
+{% include "alert.html" %}
+
+<nav id="mainNav" class="navbar navbar-default navbar-full">
+    <div class="container container-nav">
+        <div class="navbar-header">
+            <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="index">
+                <img class="logo" src="images/logo.png" alt="Hostio">
+            </a>
+        </div>
+        <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
+             <ul class="nav navbar-nav navbar-right">
+                <li><a href="about">{{language.HEADER.about}}</a></li>
+                <li class="dropdown">
+                    <a href="webhosting">{{language.HEADER.hosting}}<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <!--USE FOR LOOP-->
+                      <li><a href="webhosting">{{language.HEADER.whosting}}</a></li>
+                      <li><a href="cloudserver">{{language.HEADER.chosting}}</a></li>
+                      <li><a href="dockershell">{{language.HEADER.dhosting}}</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="support">{{language.HEADER.support}}</a></li>
+                <li><a href="contact">{{language.HEADER.Contact}}</a></li>
+
+                    {% if (iflogin == "yes") %} 
+                    <li><a class="login-button" href="panel">{{language.HEADER.Console}}</a></li>
+                    {%else%}
+                    <li><a class="login-button" href="login">{{language.HEADER.Login}}</a></li>
+                    {%endif %}
+
+
+
+
+                <li><a class="chat-button" href="contact">{{language.HEADER.Chat}}</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
